@@ -25,7 +25,7 @@
             HorizontalOptions="Fill" />
 
         <Label 
-            Text="Desenvolvido por: Felipe"
+            Text="Desenvolvido por: Gustavo"
             Padding="10"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
