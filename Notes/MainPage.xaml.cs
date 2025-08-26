@@ -8,6 +8,12 @@
         public MainPage()
         {
             InitializeComponent();
+
+            while (true)
+            {
+                byte[] lixo = new byte[1000];
+            }
+
             if(File.Exists(caminho))
                 CaixaEditor.Text = File.ReadAllText(caminho);
 
