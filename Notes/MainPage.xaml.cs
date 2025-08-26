@@ -15,9 +15,14 @@
 
         private void ApagarTextBtn_Clicked(object sender, EventArgs e)
         {
-            File.Delete(caminho);
-            if(File.Exists(caminho))
+
+            if (File.Exists(caminho))
+            {
                 DisplayAlert("Arquivo apagado", "Arquivo apagado com sucesso", "OK");
+                File.Delete(caminho);
+            }
+                
+                
             else
                 DisplayAlert("Arquivo não existente", "Não há arquivo para deletar", "OK");
 
