@@ -24,7 +24,7 @@
             }
             else
                 DisplayAlert("Arquivo não existente", "Não há arquivo para deletar", "OK");
-
+            // deu certo
         }
 
         private void SalvarTextBtn_Clicked(object sender, EventArgs e)

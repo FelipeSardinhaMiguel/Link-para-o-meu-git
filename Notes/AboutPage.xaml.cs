@@ -9,6 +9,6 @@ public partial class AboutPage : ContentPage
 
     private void IraoGitBtn_Clicked(object sender, EventArgs e)
     {
-		Launcher.Default.OpenAsync("https://github.com/Gustavoh345");	
+		Launcher.Default.OpenAsync("https://github.com/FelipeSardinhaMiguel");	
     }
 }
