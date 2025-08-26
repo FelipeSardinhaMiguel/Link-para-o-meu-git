@@ -21,7 +21,7 @@
                 DisplayAlert("Arquivo apagado", "Arquivo apagado com sucesso", "OK");
                 File.Delete(caminho);
             }
-                
+                //hgytrfg
                 
             else
                 DisplayAlert("Arquivo não existente", "Não há arquivo para deletar", "OK");
